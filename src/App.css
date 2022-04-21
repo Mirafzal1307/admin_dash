@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primaryColor: rgb(27, 200, 152);
+  --light: #fff;
+}
+
+button {
+  background-color: var(--primaryColor) !important;
+  border-color: var(--primaryColor) !important;
+}
+
+.center {
+  text-align: center;
+  vertical-align: center;
+  margin: auto;
+}
+
+#components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.user-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: 'cover';
+}
+.avatar_parent {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  background: #ededed;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+}
+.ant-input-affix-wrapper {
+  border-radius: 0.7rem;
+}
+.ant-form-item-label {
+  padding: 0 !important;
+  font-weight: 600;
+}
+.login_div {
+  height: 100%;
+}
+.card_col {
+  padding-left: 10rem;
+  background-color: rgb(211, 234, 227);
+  height: 100%;
+}
+
+.login-card {
+  background: transparent;
+  color: black;
+}
+.terms-div > a {
+  color: white;
+}
+.user_header {
+  background-color: var(--light) !important;
+  text-align: right;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+  box-shadow: rgb(0 0 0 / 15%) 0px 1px 4px -1px;
+}
+.ant-input {
+  margin-left: 0.5rem;
+}
+.loader-svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: var(--primaryColor) !important;
+  font-size: 2rem;
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
